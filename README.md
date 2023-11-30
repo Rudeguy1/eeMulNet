@@ -2,7 +2,7 @@
 
 This code library provides fast diagnostic codes for pancreatic abnormalities in the portal phase of abdominal CT. It is mainly divided into two modules. Firstly, the segmentation network is used to extract the region of interest of the pancreas, and then the diagnostic results are output by fusing patient text information and region of interest features.
 
-![Untitled](eeMulNet%2037c00bcce46f41f4b86f13065e866587/Untitled.png)
+<p align="center"><img width="100%" src="jpg/Untitled.png" /></p>
 
 # Installation
 
@@ -33,12 +33,6 @@ We used the nnUnet ([MIC-DKFZ/nnUNet at nnunetv1 (github.com)](https://github.co
 ---
 
 ### Language model：
-
-我们语言模型使用BERT-Base,Chinese预训练模型对患者文本信息进行提取。(https://github.com/google-research/bert)
-
-`extract_text.py` :实现对患者文本特征提取。
-
-“如果您对语言模型感兴趣可以参考BERT进行部署”
 
 Our language model uses BERT Base and Chinese pre trained models to extract patient text information. （ [https://github.com/google-research/bert](https://github.com/google-research/bert) ）
 
