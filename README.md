@@ -23,8 +23,7 @@ Divide the code into three parts based on its different functions:
 ### Segmentation model：
 
 We used the nnUnet ([MIC-DKFZ/nnUNet at nnunetv1 (github.com)](https://github.com/MIC-DKFZ/nnUNet/tree/nnunetv1)) network (nnUNetTrainerV2) to perform heavy head training on our dataset in the "3d_fullres" training mode in order to extract regions of interest from the pancreas. Use the trained segmentation model as a module for extracting regions of interest.
-If you want to use the segmentation weights trained by us, you can download them from the cloud storage：
-https://drive.google.com/file/d/101fKv5yLTDaIYjB3ZB3kYOmIr_mBtUQf/view?usp=drive_link
+
 
 **Data preprocessing：**
 
@@ -60,7 +59,4 @@ All_data/
 
 ```
 
-1. `splite_testfile.py`Randomly generate test sets
-2. `generate_data_json.py` Generate five-fold cross-validation data files.
-3. `train_addText_zgf2023.py` Train the classification network
-4. `predict_2023.py`Load trained weights for inference
+
