@@ -58,5 +58,8 @@ All_data/
 │   ├──...
 
 ```
-
+1. `splite_testfile.py`Randomly generate test sets
+2. `generate_data_json.py` Generate five-fold cross-validation data files.
+3. `train_addText_zgf2023.py` Train the classification network
+4. `predict_2023.py`Load trained weights for inference
 
